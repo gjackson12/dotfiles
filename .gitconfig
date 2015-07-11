@@ -1,0 +1,32 @@
+[user]
+	name = Graham Jackson
+	email = graham.jackson07@gmail.com
+[color]
+	ui = auto
+[core]
+	autocrlf = input
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+[alias]
+	los = log --color --graph --decorate --oneline
+	lol = log --color --graph --decorate
+	lols = log --color --graph --decorate --stat
+	br = branch
+	co = checkout
+	st = status
+	cp = cherry-pick
+[pull]
+	rebase = true
+
