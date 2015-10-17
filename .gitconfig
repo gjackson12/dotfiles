@@ -29,4 +29,5 @@
 	cp = cherry-pick
 [pull]
 	rebase = true
-
+[commit]
+	template = ~/.gitmessage
